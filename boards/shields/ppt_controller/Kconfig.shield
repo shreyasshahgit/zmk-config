@@ -1,0 +1,2 @@
+config SHIELD_PPT_CONTROLLER
+    def_bool y
