@@ -2,12 +2,28 @@
 #include <dt-bindings/zmk/keys.h>
 
 / {
+    macros {
+        shreyas_macro: shreyas_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+
+            bindings =
+                <&kp S>,
+                <&kp H>,
+                <&kp R>,
+                <&kp E>,
+                <&kp Y>,
+                <&kp A>,
+                <&kp S>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
             bindings = <
-                &kp LEFT
+                &shreyas_macro
                 &kp RIGHT
                 &kp F5
             >;
