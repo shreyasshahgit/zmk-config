@@ -1,6 +1,6 @@
 if SHIELD_PPT_CONTROLLER
 
 config ZMK_KEYBOARD_NAME
-    default "PPT Controller"
+    default "Shreyas PPT CTLR"
 
 endif
