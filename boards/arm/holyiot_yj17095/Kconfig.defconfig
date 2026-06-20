@@ -1,6 +1,3 @@
 if BOARD_HOLYIOT_YJ17095
 
-config SOC_NRF52832_QFAA
-    default y
-
 endif
