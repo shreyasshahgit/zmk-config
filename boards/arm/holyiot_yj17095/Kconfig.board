@@ -1,2 +1,3 @@
 config BOARD_HOLYIOT_YJ17095
     bool "Holyiot YJ-17095"
+    select SOC_NRF52832_QFAA
